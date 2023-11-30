@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offBtn {
+  color: red;
+  background-color: #fff;
+  font-size: 25px;
+}
+.offBtn:hover {
+  background-color: red;
+  color: #fff;
+}
