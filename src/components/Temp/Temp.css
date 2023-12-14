@@ -1,0 +1,53 @@
+.app-container {
+    background-color: rgb(32, 71, 129);
+    height: 300px;
+    width: 230px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #fff;
+    padding: 38px;
+    box-sizing: border-box;
+}
+.temperature-display-container {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(10, 97, 228);
+    border-radius: 50%;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+.tempClass .cold {
+    background-color: rgb(10, 97, 228);
+}
+.tempClass .hot {
+    background-color: orangered; 
+}
+button:hover {
+    background-color: #999;
+}
+.btn-temp1 {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold; 
+    margin: 0;
+    outline: none;
+}
+.btn-temp2 {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold; 
+    outline: none;
+    margin-left: 24px;
+}

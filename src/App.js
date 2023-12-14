@@ -1,10 +1,21 @@
-import React  from "react";
-import Modal from './Modal/Modal.js'
+import React, { Component }  from "react";
+import { render } from "@testing-library/react";
+import NavBar from './components/NavBar/NavBar'
+import Counter from './components/Counter/Counter'
+import Temp from './components/Temp/Temp'
+import Form from './components/Form/Form'
+import { nominalTypeHack } from "prop-types";
+import { eventWrapper } from "@testing-library/user-event/dist/utils";
+class App extends React.Component {
 
-export default function App() {
-  return (
-    <div className="container">
-      <Modal message="true"></Modal>
-    </div>
-  )
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <Form />
+      </div>
+    )
+  }
 }
+
+export default App
